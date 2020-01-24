@@ -1,1 +1,4 @@
-C:\Python27\python.exe "C:\Users\akell\OneDrive - Colostate\PhD\Ch4_Twitter\Scripts\Python\TwitterSearch_SQL_Automated_CO.py" "C:\Users\akell\OneDrive - Colostate\PhD\Ch4_Twitter\Scripts\Python\TwitterSearch_SQL_Automated_FL.py" "C:\Users\akell\OneDrive - Colostate\PhD\Ch4_Twitter\Scripts\Python\TwitterSearch_SQL_Automated_wolves.py"
+C:\Python27\python.exe
+start "C:\Users\akell\OneDrive - Colostate\PhD\Ch4_Twitter\Scripts\Python\TwitterSearch_SQL_Automated_CO.py"
+start "C:\Users\akell\OneDrive - Colostate\PhD\Ch4_Twitter\Scripts\Python\TwitterSearch_SQL_Automated_FL.py"
+start "C:\Users\akell\OneDrive - Colostate\PhD\Ch4_Twitter\Scripts\Python\TwitterSearch_SQL_Automated_wolves.py"
