@@ -2,7 +2,7 @@
 ##One-time database creation
 import sqlite3
 
-conn = sqlite3.connect('C:\\Users\\akell\\OneDrive - Colostate\\PhD\\Ch4_Twitter\\Data\\Bears_FL.db')
+conn = sqlite3.connect('C:\\Users\\akell\\OneDrive - Colostate\\PhD\\Ch4_Twitter\\Data\\US_2018.db')
 c = conn.cursor()
 c.execute('''CREATE TABLE tweets
     (tweetID integer primary key,
