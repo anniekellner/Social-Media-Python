@@ -7,5 +7,5 @@ keys = dict(
 preferences = dict(
     tweetsPerQuery = 100,
     maxTweets = 10000,
-    db_filename = 'C:\\Users\\akell\\OneDrive - Colostate\\PhD\\Ch4_Twitter\\Data\\Bears_FL.db',)
+    db_filename = 'C:\\Users\\akell\\Documents\\PhD\\Twitter\\Data\\Comparison_prem_stan\\Test_Feb92020\\Premium_troubleshoot.db',)
 searchQuery = "((bounding_box:[-87.634643 24.396308 -79.974307 31.0010564]) OR place:4ec01c9dbc693497) AND (bear OR bears OR blackbear OR blackbears OR ursus OR ursid OR ursids)  -drinking -fans -bearandpeacock -golden -leather -football -Chicago -sports -team -game -polar -soldier -teddy -arms -baseball -inning -innings -homerun -football -hockey -JV -halftime -coach -playoffs -varsity -championship -bowler -bowling -NFL AND -filter:retweets AND -filter:replies"
