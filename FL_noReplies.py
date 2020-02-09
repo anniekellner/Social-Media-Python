@@ -34,8 +34,8 @@ class TwitterSearch():
 
         response = api.request('tweets/search/%s/:%s' % (PRODUCT, LABEL),
                                {
-                                   'query': "(place:4ec01c9dbc693497 OR place:FL) (bear OR bears OR blackbear OR blackbears OR ursus OR ursid OR ursids) -football -fans -\"Metz Bear Home\" -\"Bear and Peacock\" -@bearandpeacock -leather -\"Golden Bear\" -drinking -team -Chicago -game -sports -score -polar -soldier -teddy -arms -baseball -inning -innings -JV -halftime -coach -playoffs -varsity -championship -NFL has:geo -is:reply -is:retweet",
-                                   'fromDate': '201801200000', 'toDate': '201801300000', "maxResults": 500})
+                                   'query': "(place:4ec01c9dbc693497) (bear OR bears OR blackbear OR blackbears OR ursus OR ursid OR ursids) -football -fans -\"Metz Bear Home\" -\"Bear and Peacock\" -@bearandpeacock -leather -\"Golden Bear\" -drinking -team -Chicago -game -sports -score -polar -soldier -teddy -arms -baseball -inning -innings -JV -halftime -coach -playoffs -varsity -championship -NFL has:geo -is:reply -is:retweet",
+                                   'fromDate': '201801300000', 'toDate': '201802100000', "maxResults": 500})
         tweet_count = 0
         for tweet_data in response:
             self.process_tweet(tweet_data)
