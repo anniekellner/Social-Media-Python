@@ -33,8 +33,8 @@ class TwitterSearch():
 
         response = api.request('tweets/search/%s/:%s' % (PRODUCT, LABEL),
                                {
-                                   'query': "place_country: US (\"bear\" OR \"blackbear\" OR \"blackbears\" OR \"ursid\" OR \"ursus\" OR \"ursids\") -football -fans -\"Metz Bear Home\" -\"Bear and Peacock\" -@bearandpeacock -leather -\"Golden Bear\" -drinking -team -Chicago -game -sports -score -polar -soldier -teddy -arms -baseball -inning -innings -JV -halftime -coach -playoffs -varsity -championship -NFL has:geo -is:retweet",
-                                   'fromDate': '201801300000', 'toDate': '201802050000', "maxResults": 500})
+                                   'query': "place_country: US (\"bear\" OR \"blackbear\" OR \"blackbears\" OR \"ursid\" OR \"ursus\" OR \"ursids\") -football -fans -\"Metz Bear Home\" -\"Bear and Peacock\" -@bearandpeacock -leather -\"Golden Bear\" -drinking -team -Chicago -game -sports -score -polar -soldier -teddy -arms -baseball -inning -innings -JV -halftime -coach -playoffs -varsity -championship -NFL -is:retweet",
+                                   'fromDate': '201801010000', 'toDate': '201801050000', "maxResults": 500})
         tweet_count = 0
         for tweet_data in response:
             self.process_tweet(tweet_data)
